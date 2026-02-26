@@ -214,37 +214,5 @@
         </tr>
     </table>
 
-    <h2>📈 Model Architecture Summary</h2>
-    <table>
-        <tr>
-            <th>Component</th>
-            <th>Details</th>
-        </tr>
-        <tr>
-            <td>Architecture Type</td>
-            <td>U-Net (Encoder-Decoder with Skip Connections)</td>
-        </tr>
-        <tr>
-            <td>Encoder Depth</td>
-            <td>4 levels (32 → 64 → 128 → 256 filters)</td>
-        </tr>
-        <tr>
-            <td>Decoder Depth</td>
-            <td>4 levels (256 → 128 → 64 → 32 filters)</td>
-        </tr>
-        <tr>
-            <td>Skip Connections</td>
-            <td>Concatenation from encoder to decoder at each level</td>
-        </tr>
-        <tr>
-            <td>Activation Functions</td>
-            <td>ReLU (hidden), Sigmoid (output)</td>
-        </tr>
-        <tr>
-            <td>Total Parameters</td>
-            <td>~5 Million</td>
-        </tr>
-    </table>
-
 </body>
 </html>

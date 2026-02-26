@@ -258,41 +258,5 @@
         </tr>
     </table>
 
-    <h2>📈 Model Architecture Summary</h2>
-    <table>
-        <tr>
-            <th>Component</th>
-            <th>Details</th>
-        </tr>
-        <tr>
-            <td>Architecture Type</td>
-            <td>U-Net with Attention Gates</td>
-        </tr>
-        <tr>
-            <td>Encoder Depth</td>
-            <td>4 levels with MaxPooling</td>
-        </tr>
-        <tr>
-            <td>Decoder Depth</td>
-            <td>4 levels with UpSampling</td>
-        </tr>
-        <tr>
-            <td>Attention Gates</td>
-            <td>Applied at each skip connection (4 attention gates)</td>
-        </tr>
-        <tr>
-            <td>Skip Connections</td>
-            <td>Attention-weighted concatenation from encoder to decoder</td>
-        </tr>
-        <tr>
-            <td>Activation Functions</td>
-            <td>ReLU (hidden), Sigmoid (attention & output)</td>
-        </tr>
-        <tr>
-            <td>Total Parameters</td>
-            <td>~12 Million</td>
-        </tr>
-    </table>
-
 </body>
 </html>
