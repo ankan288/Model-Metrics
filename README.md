@@ -35,10 +35,10 @@ This repository contains comprehensive HTML reports for 5 brain tumor segmentati
 
 ## 🎯 Key Findings
 
-- **Best for Tumor Detection**: HybridTransUNet++ V2 (83.58% recall)
-- **Highest Accuracy**: TransUNet (99.58%)
-- **Best Precision**: Attention U-Net (88.79%)
-- **Best Overall (Dice)**: HybridTransUNet++ V2 (75.56%)
+- **🏆 Best for Tumor Detection**: HybridTransUNet++ V2 (83.58% recall - highest sensitivity)
+- **🥇 Best Overall Performance (Dice)**: HybridTransUNet++ V2 (75.56%)
+- **🎯 Highest Accuracy**: TransUNet (99.58%)
+- **⚡ Best Precision (Lowest False Positives)**: Attention U-Net (88.79%)
 
 ## 📁 Dataset
 
